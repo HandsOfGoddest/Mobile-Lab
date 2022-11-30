@@ -4,7 +4,7 @@
     "slug": "bkNetScanner",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Logo.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.hieuncse.bkNetScanner"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "672d497c-3c65-4e46-8933-1f0cbd7039b7"
+      }
     }
   }
 }
